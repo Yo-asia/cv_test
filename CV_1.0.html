@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&amp;subset=latin-ext" rel="stylesheet">-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,700&amp;subset=latin-ext" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin-ext" rel="stylesheet" type='text/css'>
+    <!--<link href="bootstrap.css" rel="stylesheet" type="text/css">-->
+    <!--<link href="bootstrap-grid.css" rel="stylesheet" type="text/css">-->
+    <!--<link href="bootstrap-reboot.css" rel="stylesheet" type="text/css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">-->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+<header>
+    <div class="container">
+        <div class="row">
+            <h1 class="col-lg-4">NIE IDZIE MI NAJLEPIEJ</h1>
+            <nav class="col-lg-8 navbar">
+                <a class="nav-btn" href="#">Wykształcenie</a>
+                <a class="nav-btn" href="#">Doświadczenie</a>
+                <a class="nav-btn" href="#">Inne</a>
+                <a class="nav-btn" href="#">Zainteresowania</a>
+            </nav>
+        </div>
+    </div>
+</header>
+<section class="jumbotron">
+    <div class="container">
+        <div class="row text-center">
+            <h2>Bello</h2>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <div class="row">
+        <figure class="col-sm-6">
+            <p>KITCHEN</p>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg"/>
+        </figure>
+        <figure class="col-sm-6">
+            <p>WOODWORK</p>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/woodwork.jpg"/>
+        </figure>
+    </div>
+    <div class="row">
+        <figure class="col-sm-6">
+            <p>GIFTS</p>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/gifts.jpg"/>
+        </figure>
+        <figure class="col-sm-6">
+            <p>ANTIQUES</p>
+            <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/antique.jpg"/>
+        </figure>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <p class="col-lg-4">&copy; Joanna Ostrowska</p>
+            <ul class="col-lg-8">
+                <li class="col-lg-1">GitHub<a href="https://github.com/Yo-asia"> <img src="https://assets-cdn.github.com/apple-touch-icon-114x114.png"/></a></li>
+                <li class="col-lg-1">LinkedIn<a href="https://www.linkedin.com/in/joanna-ostrowska-03905b14b/"><img src="https://static.licdn.com/scds/common/u/images/logos/linkedin/logo_web_push_160x160_v1.png"/></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<body>
+
+</body>
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 100) {
+            $('header').addClass('shrink');
+            console.log("NOT");
+        } else {
+            $('header').removeClass('shrink');
+            console.log("DUPA");
+        }
+    });
+</script>
+</html>

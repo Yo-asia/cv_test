@@ -1,0 +1,115 @@
+header, footer, section {
+    font-family: Oswald;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 5;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    min-height: 100px;
+    font-size: 20px;
+}
+
+header h1 {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header .col-lg-8,
+footer .col-lg-8 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .col-lg-4,
+footer .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+header a {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    padding: 10px;
+    margin: 20px;
+    /*border: solid;*/
+    /*border-color: black;*/
+    /*border-width: 1px;*/
+    /*border-radius: 5px;*/
+}
+
+header.shrink {
+    min-height: 50px;
+}
+
+header.shrink a {
+    display: flex;
+    align-item: center;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+header.shrink h1 {
+    font-size: 20px;
+}
+
+footer a {
+    margin: 20px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.nav-btn {
+    color: black;
+    font-weight: 300;
+}
+
+.nav-btn:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url("../img/BANANA.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+
+/*footer li{
+    display: block;
+    align-items: center;
+    margin: auto;
+}*/
+.col-lg-1 {
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
