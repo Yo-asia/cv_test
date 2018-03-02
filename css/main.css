@@ -35,7 +35,7 @@ footer .col-lg-8 {
 header .col-lg-4,
 footer .col-lg-4 {
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 header a {
@@ -88,11 +88,15 @@ footer ul {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("../img/BANANA.jpg");
+    background-image: url("../img/Jumbotron.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     height: 500px;
 
+}
+.jumbotron h2{
+    text-align: center;
+    color: white;
 }
 
 footer img {
