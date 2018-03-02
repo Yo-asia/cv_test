@@ -70,7 +70,7 @@ footer a {
     margin: 20px;
 }
 
-footer ul {
+footer ul, section ul {
     list-style: none;
 }
 
