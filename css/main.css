@@ -42,7 +42,7 @@ header a {
     -webkit-transition: all 1s ease;
     transition: all 1s ease;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     /*border: solid;*/
     /*border-color: black;*/
     /*border-width: 1px;*/
@@ -83,7 +83,6 @@ footer ul {
     color: white;
     text-decoration: none;
     background-color: black;
-
 }
 
 .jumbotron {
