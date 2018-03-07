@@ -70,9 +70,27 @@ footer a {
     margin: 20px;
 }
 
+footer img {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+}
+
 footer ul,
 section ul {
     list-style: none;
+}
+
+section h1{
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+section p{
+    font-size: large;
+}
+section ul{
+    margin-bottom: 20px;
 }
 
 .nav-btn {
@@ -89,7 +107,7 @@ section ul {
 .jumbotron {
     display: flex;
     align-items: center;
-    background-image: url("../img/Jumbotron.jpeg");
+    background-image: url("../media/Jumbotron.jpeg");
     background-size: cover;
     background-position: top;
     height: 500px;
@@ -100,35 +118,37 @@ section ul {
     color: white;
 }
 
-footer img {
-    height: 40px;
-    width: 40px;
-    margin: auto;
-}
-
-/*footer li{
-    display: block;
-    align-items: center;
-    margin: auto;
-}*/
 .col-lg-1 {
     display: block;
     align-items: center;
     align-content: center;
 }
 
+.col-lg-6 img, .col-lg-6 video {
+    height: 350px;
+    width: 100%;
+    object-position: center center;
+}
+
+.rozwin-button{
+    cursor: pointer;
+}
+.hide {
+    display: none;
+}
+
 #tasks{
     list-style: disc;
 }
 
-section h1{
-    margin-top: 50px;
-    padding-top: 50px;
-}
 #face{
     display: flex;
     align-items: center;
     justify-content: center;
     justify-items: center;
     height: 300px;
+}
+#intro{
+    text-align: justify;
+    text-justify: auto;
 }
