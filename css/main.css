@@ -43,10 +43,6 @@ header a {
     transition: all 1s ease;
     padding: 10px;
     margin: 10px;
-    /*border: solid;*/
-    /*border-color: black;*/
-    /*border-width: 1px;*/
-    /*border-radius: 5px;*/
 }
 
 header.shrink {
@@ -125,12 +121,11 @@ section ul{
 }
 
 .col-lg-6 img, .col-lg-6 video {
-    height: 350px;
     width: 100%;
     object-position: center center;
 }
 
-.rozwin-button{
+.rozwin-button, .zwin-button{
     cursor: pointer;
 }
 .hide {

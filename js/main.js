@@ -7,13 +7,16 @@ $(document).ready(()=>{
         }
     });
 
-    $('.bosch .rozwin-button').on('click',()=>{
-        $('.bosch .rozwin').toggle();
+
+    $('.rozwin-button').on('click',event =>{
+        $(event.currentTarget).parent().next().removeClass('d-none');
+        $(event.currentTarget).next().removeClass('d-none');
+        $(event.currentTarget).addClass('d-none');
     });
-    $('.pas .rozwin-button').on('click',()=>{
-        $('.pas .rozwin').toggle();
-    });
-    $('.aspa .rozwin-button').on('click',()=>{
-        $('.aspa .rozwin').toggle();
+
+    $('.zwin-button').on('click',event =>{
+        $(event.currentTarget).parent().next().addClass('d-none');
+        $(event.currentTarget).prev().removeClass('d-none');
+        $(event.currentTarget).addClass('d-none');
     });
 });
